@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhanced Menu</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-yellow-600 text-white shadow-md">
+    <div class="container mx-auto p-4 flex justify-between items-center">
+      <h1 class="text-3xl font-extrabold uppercase tracking-wide">Tasty Treats</h1>
+      <nav class="flex space-x-6">
+        <a href="#home" class="hover:text-gray-200">Home</a>
+        <a href="#menu" class="hover:text-gray-200">Menu</a>
+        <a href="#about" class="hover:text-gray-200">About</a>
+        <a href="#contact" class="hover:text-gray-200">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="bg-[url('image.jpg')] bg-cover bg-center h-screen flex items-center justify-center text-white">
+    <div class="text-center bg-black bg-opacity-50 p-10 rounded-lg shadow-lg">
+      <h2 class="text-6xl font-bold">Welcome to Tasty Treats</h2>
+      <p class="mt-4 text-lg italic">Delicious food for every occasion</p>
+      <button class="mt-6 bg-red-500 px-6 py-3 text-xl font-semibold rounded-lg shadow-lg hover:bg-red-600">Explore Menu</button>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 bg-white">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold text-yellow-600 mb-4">About Us</h2>
+      <p class="text-gray-600 text-lg">Tasty Treats has been serving mouth-watering dishes since 1995. Whether you're here for a casual meal or a special occasion, we bring you the best flavors crafted with love and care.</p>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="py-16">
+    <div class="container mx-auto">
+      <h2 class="text-4xl font-bold text-center text-yellow-600 mb-10">Our Menu</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Menu Item -->
+        <div class="bg-white border border-gray-200 rounded-lg shadow-lg">
+          <img src="pizza.jpg" alt="Pizza Margherita" class="w-full h-64 object-cover rounded-t-lg">
+          <div class="p-6">
+            <h3 class="text-2xl font-bold text-gray-800">Pizza Margherita</h3>
+            <p class="text-gray-600 mt-2">Classic pizza with fresh tomatoes, mozzarella, and basil.</p>
+            <p class="mt-4 text-lg font-bold text-yellow-600">Rs.299</p>
+          </div>
+        </div>
+        <!-- More Menu Items -->
+        <div class="bg-white border border-gray-200 rounded-lg shadow-lg">
+          <img src="burger.jpg" alt="Cheeseburger" class="w-full h-64 object-cover rounded-t-lg">
+          <div class="p-6">
+            <h3 class="text-2xl font-bold text-gray-800">Cheeseburger</h3>
+            <p class="text-gray-600 mt-2">Juicy patty with cheddar cheese and fresh lettuce.</p>
+            <p class="mt-4 text-lg font-bold text-yellow-600">Rs.199</p>
+          </div>
+        </div>
+        <div class="bg-white border border-gray-200 rounded-lg shadow-lg">
+          <img src="wrap.jpg" alt="Chicken Wrap" class="w-full h-64 object-cover rounded-t-lg">
+          <div class="p-6">
+            <h3 class="text-2xl font-bold text-gray-800">Chicken Wrap</h3>
+            <p class="text-gray-600 mt-2">A delicious wrap stuffed with chicken and veggies.</p>
+            <p class="mt-4 text-lg font-bold text-yellow-600">Rs.149</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-gray-800 text-white py-16">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold text-yellow-500 mb-6">Contact Us</h2>
+      <p class="text-lg">Have questions or want to reserve a table? Reach out to us!</p>
+      <span class="font-semibold">999-888-777</span>
+      <span class="font-semibold">contact@tastytreats.com</span></p>
+       Delicious Ave, Food City.
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-6">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2025 Tasty Treats. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
